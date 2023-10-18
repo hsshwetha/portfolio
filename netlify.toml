@@ -1,0 +1,3 @@
+[build]
+  publish = "path/to/your/html/css/files"
+  command = "npm run build" # If you have a build command, replace this with your specific build command

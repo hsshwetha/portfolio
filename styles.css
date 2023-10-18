@@ -1,0 +1,317 @@
+body{
+    background-color: #D6E4E5;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+  }
+  li {
+    float: left;
+  }
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover{
+    background-color: aliceblue;
+    color: black;
+  }
+ a{
+    text-decoration: none;
+    color: black;
+ }
+ a:hover{
+    color: rgb(24, 13, 179);
+ }
+    
+  .logo{
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 40px;
+    width: 75px;
+    height: 50px;
+  }
+  .search{
+    float: right;
+    padding: 15px 10px;
+
+  }
+  .profile{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 50%;
+  }
+  .personal{
+    margin-top: 20px;
+    background-color: #D6E4E5;
+  }
+  .summary1{
+    display: inline-block;
+
+  }
+  .summary2{
+    font-size: 20px;
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    padding: 50px 50px;
+    position: absolute;
+  }
+  .summary2 p{
+    text-align: justify;
+    font-size: large;
+    font-style: normal;
+    line-height: 30px;
+    
+  }
+  .lia, .lib{
+    float: none;
+  }
+  .lib a{
+    color: #EB6440;
+  }
+
+
+
+  /* education */
+  a{
+    text-decoration: none;
+    color: black;
+ }
+ a:hover{
+    color: rgb(24, 13, 179);
+ }
+    
+  .logo{
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 40px;
+    width: 75px;
+    height: 50px;
+  }
+  .search{
+    float: right;
+    padding: 15px 10px;
+
+  }
+  .header{
+    background-color: #497174;
+    width: 100%;
+    height: 300px;
+    padding-top: 0px;
+    color: #ffffff;
+  }
+  .header:hover{
+    background-color: #ffffff;
+    color:#000000
+  }
+  .header h1{
+    width: 20%;
+    font-size:xx-large;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    text-align: center;
+  }
+  .table,tr,td,th{
+    border: 2px solid;
+    border-collapse: collapse;
+    text-align:center;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table{
+    width: 70%;
+  }
+  tr:nth-child(even){
+background-color: #ffffff;
+  }
+  .tablesec{
+    padding: 100px;
+  }
+  
+
+
+
+
+  /* gallery */
+  .imgsec{
+    margin-top: 40px;
+    height: auto;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-container > div {
+    background-color: #D6E4E5;
+    width: 33%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flex-container img{
+    width: 100%;
+    height: 60%;
+  }
+  /* .imgsec{
+    margin-top: 80px;
+  }
+  
+  .image-list-small {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 80%;
+    padding-left:200px;
+  }
+  
+  .image-list-small li {
+    display: inline-block;
+    width: 25%;
+    margin: 0 12px 30px;
+  }
+   */
+  
+  /* Photo */
+  
+  /* .image-list-small li > a {
+    display: flex;
+    text-decoration: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid #ffffff;
+    outline: 1px solid #000000;
+    box-shadow: 0 2px 1px #DDD;
+  }
+  
+  .image-list-small .details {
+    margin-top: 13px;
+  } */
+  
+  
+  /* Title */
+  
+  .image-list-small .details h3 {
+    display: block;
+    font-size: 12px;
+    margin: 0 0 3px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .image-list-small .details h3 a {
+    color: #303030;
+    text-decoration: none;
+  }
+  
+  .image-list-small .details .image-author {
+    display: block;
+    color: #717171;
+    font-size: 11px;
+    font-weight: normal;
+    margin: 0;
+  }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+
+  /* contact me */
+.formsec{
+  height: auto;
+  width:30%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.formsec input{
+  width: 95%;
+  padding: 10px;
+  margin: 10px;
+}
+select {
+  width: 95%;
+  padding: 10px;
+  margin: 10px;
+}
+textarea{
+  width: 95%;
+  padding: 10px;
+  margin: 10px;
+}
+label{
+  padding: 5%;
+  text-align: start;
+}
+.formsec{
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.formhead h3{
+
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 20px;
+  padding-top: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.formhead p{
+  text-align: center;
+  margin-bottom: 0;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.formsec button{
+  margin-left: 40%;
+  background-color: #497174;
+  height: 40px;
+  width: 100px;
+  color: #ffffff;
+}
+.formsec button:hover{
+background-color:#D6E4E5 ;
+color: #333;
+}
+.formsec i{
+  font-size: x-small;
+  color: #EB6440;
+}
